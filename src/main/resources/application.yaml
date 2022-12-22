@@ -1,1 +1,17 @@
+knf:
+    app:
+        jwtExpirationMs: 76300000
+        jwtSecret: knowledgeFactory
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: maycon
+    url: jdbc:postgresql://localhost/spring-security-jwt
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    database: postgresql
 
